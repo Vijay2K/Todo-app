@@ -1,0 +1,18 @@
+.input:focus {
+  outline: none;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 0.25rem 0.5rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  border: 1px solid #ccc;
+  transition: 0.2s ease-out;
+}
+
+.btn:hover,
+.btn:active {
+  cursor: pointer;
+  background-color: aqua;
+}

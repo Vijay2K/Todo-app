@@ -1,0 +1,29 @@
+.todo-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.todo-list li {
+  list-style: none;
+  padding: 0.75rem;
+  background-color: #fff;
+  width: 40%;
+  font-weight: bolder;
+}
+
+.todo-list.completed li {
+  text-decoration: line-through;
+}
+
+.todo-list button {
+  padding: 0.5rem;
+  border: none;
+}
+
+.todo-list button:hover,
+.todo-list button:active {
+  cursor: pointer;
+  background-color: #ff6263;
+  color: #fff;
+}
